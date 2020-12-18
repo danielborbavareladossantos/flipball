@@ -64,7 +64,7 @@ class Jogo {
 
     reset = () => {
         //cria players
-        this.instanciaPlayersAuto(15);
+        this.instanciaPlayersAuto(1);
 
         //desenha player painel
         new PainelPlayer(this.players);
